@@ -82,7 +82,7 @@ class ITK_EXPORT AmsterdamShroudImageFilter
   : public itk::ImageToImageFilter<TInputImage, itk::Image<double, TInputImage::ImageDimension - 1>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(AmsterdamShroudImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(AmsterdamShroudImageFilter);
 
   /** Standard class type alias. */
   using Self = AmsterdamShroudImageFilter;

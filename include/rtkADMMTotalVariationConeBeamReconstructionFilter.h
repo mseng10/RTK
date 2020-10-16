@@ -138,7 +138,7 @@ class ADMMTotalVariationConeBeamReconstructionFilter
   : public rtk::IterativeConeBeamReconstructionFilter<TOutputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ADMMTotalVariationConeBeamReconstructionFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ADMMTotalVariationConeBeamReconstructionFilter);
 
   /** Standard class type alias. */
   using Self = ADMMTotalVariationConeBeamReconstructionFilter;

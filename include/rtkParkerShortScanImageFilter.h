@@ -47,7 +47,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITK_EXPORT ParkerShortScanImageFilter : public itk::InPlaceImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ParkerShortScanImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ParkerShortScanImageFilter);
 
   /** Standard class type alias. */
   using Self = ParkerShortScanImageFilter;

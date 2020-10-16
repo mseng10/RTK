@@ -62,7 +62,7 @@ class ITK_EXPORT FFTRampImageFilter
   : public rtk::FFTProjectionsConvolutionImageFilter<TInputImage, TOutputImage, TFFTPrecision>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FFTRampImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FFTRampImageFilter);
 
   /** Standard class type alias. */
   using Self = FFTRampImageFilter;

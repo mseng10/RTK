@@ -55,7 +55,7 @@ template <typename TInputImage,
 class ForwardDifferenceGradientImageFilter : public itk::ImageToImageFilter<TInputImage, TOuputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ForwardDifferenceGradientImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ForwardDifferenceGradientImageFilter);
 
   /** Extract dimension from input image. */
   itkStaticConstMacro(InputImageDimension, unsigned int, TInputImage::ImageDimension);

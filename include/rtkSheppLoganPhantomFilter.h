@@ -40,7 +40,7 @@ template <class TInputImage, class TOutputImage>
 class ITK_EXPORT SheppLoganPhantomFilter : public ProjectGeometricPhantomImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(SheppLoganPhantomFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(SheppLoganPhantomFilter);
 
   /** Standard class type alias. */
   using Self = SheppLoganPhantomFilter;

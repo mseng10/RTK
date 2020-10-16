@@ -86,7 +86,7 @@ class WarpProjectionStackToFourDImageFilter
   : public ProjectionStackToFourDImageFilter<VolumeSeriesType, ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(WarpProjectionStackToFourDImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(WarpProjectionStackToFourDImageFilter);
 
   /** Standard class type alias. */
   using Self = WarpProjectionStackToFourDImageFilter;

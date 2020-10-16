@@ -41,7 +41,7 @@ namespace rtk
 class DigisensGeometryXMLFileReader : public itk::XMLReader<itk::MetaDataDictionary>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DigisensGeometryXMLFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(DigisensGeometryXMLFileReader);
 
   /** Standard type alias */
   using Self = DigisensGeometryXMLFileReader;

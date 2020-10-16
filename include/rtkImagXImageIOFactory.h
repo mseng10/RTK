@@ -37,7 +37,7 @@ namespace rtk
 class RTK_EXPORT ImagXImageIOFactory : public itk::ObjectFactoryBase
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ImagXImageIOFactory);
+  ITK_DISALLOW_COPY_AND_MOVE(ImagXImageIOFactory);
 
   /** Standard class type alias. */
   using Self = ImagXImageIOFactory;

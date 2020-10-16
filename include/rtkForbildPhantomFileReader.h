@@ -41,7 +41,7 @@ namespace rtk
 class RTK_EXPORT ForbildPhantomFileReader : public itk::LightProcessObject
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ForbildPhantomFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(ForbildPhantomFileReader);
 
   /** Standard class type alias. */
   using Self = ForbildPhantomFileReader;

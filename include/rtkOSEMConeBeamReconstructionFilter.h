@@ -119,7 +119,7 @@ class ITK_EXPORT OSEMConeBeamReconstructionFilter
   : public rtk::IterativeConeBeamReconstructionFilter<TVolumeImage, TProjectionImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(OSEMConeBeamReconstructionFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(OSEMConeBeamReconstructionFilter);
 
   /** Standard class type alias. */
   using Self = OSEMConeBeamReconstructionFilter;

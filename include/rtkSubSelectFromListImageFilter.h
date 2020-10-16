@@ -33,7 +33,7 @@ template <typename ProjectionStackType>
 class SubSelectFromListImageFilter : public SubSelectImageFilter<ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(SubSelectFromListImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(SubSelectFromListImageFilter);
 
   /** Standard class type alias. */
   using Self = SubSelectFromListImageFilter;

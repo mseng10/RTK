@@ -43,7 +43,7 @@ namespace rtk
 class VarianProBeamXMLFileReader : public itk::XMLReader<itk::MetaDataDictionary>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(VarianProBeamXMLFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(VarianProBeamXMLFileReader);
 
   /** Standard type alias */
   using Self = VarianProBeamXMLFileReader;

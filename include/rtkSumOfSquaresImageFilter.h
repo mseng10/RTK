@@ -37,7 +37,7 @@ template <class TOutputImage>
 class ITK_EXPORT SumOfSquaresImageFilter : public itk::InPlaceImageFilter<TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(SumOfSquaresImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(SumOfSquaresImageFilter);
 
   /** Standard class type alias. */
   using Self = SumOfSquaresImageFilter;

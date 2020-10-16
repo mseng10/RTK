@@ -45,7 +45,7 @@ class RTK_EXPORT CudaLaplacianImageFilter
       LaplacianImageFilter<itk::CudaImage<float, 3>, itk::CudaImage<itk::CovariantVector<float, 3>, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaLaplacianImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaLaplacianImageFilter);
 
   /** Standard class type alias. */
   using Self = rtk::CudaLaplacianImageFilter;

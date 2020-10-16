@@ -270,7 +270,7 @@ class ITK_EXPORT JosephForwardAttenuatedProjectionImageFilter
                                               TSumAlongRay>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(JosephForwardAttenuatedProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(JosephForwardAttenuatedProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = JosephForwardAttenuatedProjectionImageFilter;

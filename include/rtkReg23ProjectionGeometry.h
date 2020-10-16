@@ -63,7 +63,7 @@ namespace rtk
 class RTK_EXPORT Reg23ProjectionGeometry : public rtk::ThreeDCircularProjectionGeometry
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(Reg23ProjectionGeometry);
+  ITK_DISALLOW_COPY_AND_MOVE(Reg23ProjectionGeometry);
 
   /** General type alias **/
   using Self = Reg23ProjectionGeometry;

@@ -54,7 +54,7 @@ class ITK_EXPORT CudaForwardProjectionImageFilter
       CudaInPlaceImageFilter<TInputImage, TOutputImage, ForwardProjectionImageFilter<TInputImage, TOutputImage>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaForwardProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaForwardProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = CudaForwardProjectionImageFilter;

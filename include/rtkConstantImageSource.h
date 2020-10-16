@@ -51,7 +51,7 @@ template <typename TOutputImage>
 class ITK_EXPORT ConstantImageSource : public itk::ImageSource<TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ConstantImageSource);
+  ITK_DISALLOW_COPY_AND_MOVE(ConstantImageSource);
 
   /** Standard class type alias. */
   using Self = ConstantImageSource;

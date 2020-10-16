@@ -42,7 +42,7 @@ class ITK_EXPORT DisplacedDetectorForOffsetFieldOfViewImageFilter
   : public rtk::DisplacedDetectorImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DisplacedDetectorForOffsetFieldOfViewImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DisplacedDetectorForOffsetFieldOfViewImageFilter);
 
   /** Standard class type alias. */
   using Self = DisplacedDetectorForOffsetFieldOfViewImageFilter;

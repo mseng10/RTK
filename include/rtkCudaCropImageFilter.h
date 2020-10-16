@@ -51,7 +51,7 @@ class RTK_EXPORT CudaCropImageFilter
                                        itk::CropImageFilter<itk::CudaImage<float, 3>, itk::CudaImage<float, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaCropImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaCropImageFilter);
 
   /** Standard class type alias. */
   using ImageType = itk::CudaImage<float, 3>;

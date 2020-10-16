@@ -144,7 +144,7 @@ class ADMMWaveletsConeBeamReconstructionFilter
   : public rtk::IterativeConeBeamReconstructionFilter<TOutputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ADMMWaveletsConeBeamReconstructionFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ADMMWaveletsConeBeamReconstructionFilter);
 
   /** Standard class type alias. */
   using Self = ADMMWaveletsConeBeamReconstructionFilter;

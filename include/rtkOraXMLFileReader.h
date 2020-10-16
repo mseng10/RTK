@@ -39,7 +39,7 @@ namespace rtk
 class OraXMLFileReader : public itk::XMLReader<itk::MetaDataDictionary>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(OraXMLFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(OraXMLFileReader);
 
   /** Standard type alias */
   using Self = OraXMLFileReader;

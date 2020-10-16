@@ -44,7 +44,7 @@ template <unsigned int TDimension = 3>
 class ProjectionGeometry : public itk::DataObject
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ProjectionGeometry);
+  ITK_DISALLOW_COPY_AND_MOVE(ProjectionGeometry);
 
   using Self = ProjectionGeometry<TDimension>;
   using Superclass = itk::DataObject;

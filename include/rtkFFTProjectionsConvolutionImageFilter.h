@@ -45,7 +45,7 @@ template <class TInputImage, class TOutputImage, class TFFTPrecision>
 class ITK_EXPORT FFTProjectionsConvolutionImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FFTProjectionsConvolutionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FFTProjectionsConvolutionImageFilter);
 
   /** Standard class type alias. */
   using Self = FFTProjectionsConvolutionImageFilter;

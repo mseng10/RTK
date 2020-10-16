@@ -50,7 +50,7 @@ template <class TInputImage, class TOutputImage>
 class BackProjectionImageFilter : public itk::InPlaceImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(BackProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(BackProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = BackProjectionImageFilter;

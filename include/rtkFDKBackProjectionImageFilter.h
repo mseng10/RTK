@@ -39,7 +39,7 @@ template <class TInputImage, class TOutputImage>
 class ITK_EXPORT FDKBackProjectionImageFilter : public BackProjectionImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FDKBackProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FDKBackProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = FDKBackProjectionImageFilter;

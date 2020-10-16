@@ -39,7 +39,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITKIOImageBase_HIDDEN EdfRawToAttenuationImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(EdfRawToAttenuationImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(EdfRawToAttenuationImageFilter);
 
   /** Standard class type alias. */
   using Self = EdfRawToAttenuationImageFilter;

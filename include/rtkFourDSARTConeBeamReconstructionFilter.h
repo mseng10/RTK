@@ -123,7 +123,7 @@ class ITK_EXPORT FourDSARTConeBeamReconstructionFilter
   : public rtk::IterativeConeBeamReconstructionFilter<VolumeSeriesType, ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FourDSARTConeBeamReconstructionFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FourDSARTConeBeamReconstructionFilter);
 
   /** Standard class type alias. */
   using Self = FourDSARTConeBeamReconstructionFilter;

@@ -75,7 +75,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITK_EXPORT DePierroRegularizationImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DePierroRegularizationImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DePierroRegularizationImageFilter);
 
   /** Standard class type alias. */
   using Self = DePierroRegularizationImageFilter;

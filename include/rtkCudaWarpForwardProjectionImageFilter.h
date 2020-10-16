@@ -50,7 +50,7 @@ class RTK_EXPORT CudaWarpForwardProjectionImageFilter
                                        ForwardProjectionImageFilter<itk::CudaImage<float, 3>, itk::CudaImage<float, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaWarpForwardProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaWarpForwardProjectionImageFilter);
 
   /** Standard class type alias. */
   using InputImageType = itk::CudaImage<float, 3>;

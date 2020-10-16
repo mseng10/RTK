@@ -39,7 +39,7 @@ template <class TInputImage, class TOutputImage>
 class DrawGeometricPhantomImageFilter : public itk::InPlaceImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DrawGeometricPhantomImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DrawGeometricPhantomImageFilter);
 
   /** Standard class type alias. */
   using Self = DrawGeometricPhantomImageFilter;

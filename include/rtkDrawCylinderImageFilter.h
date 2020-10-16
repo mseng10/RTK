@@ -42,7 +42,7 @@ template <class TInputImage, class TOutputImage>
 class DrawCylinderImageFilter : public DrawEllipsoidImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DrawCylinderImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DrawCylinderImageFilter);
 
   /** Standard class type alias. */
   using Self = DrawCylinderImageFilter;

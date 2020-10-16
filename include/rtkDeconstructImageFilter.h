@@ -128,7 +128,7 @@ template <class TImage>
 class DeconstructImageFilter : public itk::ImageToImageFilter<TImage, TImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DeconstructImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DeconstructImageFilter);
 
   /** Standard class type alias. */
   using Self = DeconstructImageFilter;

@@ -36,7 +36,7 @@ namespace rtk
 class RTK_EXPORT GlobalResourceProbe : public itk::Object
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(GlobalResourceProbe);
+  ITK_DISALLOW_COPY_AND_MOVE(GlobalResourceProbe);
 
   /** Standard class type alias. */
   using Self = GlobalResourceProbe;

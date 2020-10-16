@@ -140,7 +140,7 @@ class MotionCompensatedFourDROOSTERConeBeamReconstructionFilter
   : public rtk::FourDROOSTERConeBeamReconstructionFilter<VolumeSeriesType, ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(MotionCompensatedFourDROOSTERConeBeamReconstructionFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(MotionCompensatedFourDROOSTERConeBeamReconstructionFilter);
 
   /** Standard class type alias. */
   using Self = MotionCompensatedFourDROOSTERConeBeamReconstructionFilter;

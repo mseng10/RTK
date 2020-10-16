@@ -43,7 +43,7 @@ class CudaFFTRampImageFilter
       FFTRampImageFilter<itk::CudaImage<float, 3>, itk::CudaImage<float, 3>, float>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaFFTRampImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaFFTRampImageFilter);
 
   /** Standard class type alias. */
   using Self = CudaFFTRampImageFilter;

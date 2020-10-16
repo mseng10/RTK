@@ -52,7 +52,7 @@ class RTK_EXPORT CudaForwardWarpImageFilter
                                                                    itk::CudaImage<itk::CovariantVector<float, 3>, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaForwardWarpImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaForwardWarpImageFilter);
 
   /** Standard class type alias. */
   using ImageType = itk::CudaImage<float, 3>;

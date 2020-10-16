@@ -41,7 +41,7 @@ template <typename TOutputImage, typename TGradientImage>
 class DenoisingBPDQImageFilter : public itk::InPlaceImageFilter<TOutputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(DenoisingBPDQImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(DenoisingBPDQImageFilter);
 
   /** Standard class type alias. */
   using Self = DenoisingBPDQImageFilter;

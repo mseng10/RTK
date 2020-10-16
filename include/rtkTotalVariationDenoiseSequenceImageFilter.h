@@ -79,7 +79,7 @@ template <typename TImageSequence>
 class TotalVariationDenoiseSequenceImageFilter : public itk::ImageToImageFilter<TImageSequence, TImageSequence>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(TotalVariationDenoiseSequenceImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(TotalVariationDenoiseSequenceImageFilter);
 
   /** Standard class type alias. */
   using Self = TotalVariationDenoiseSequenceImageFilter;

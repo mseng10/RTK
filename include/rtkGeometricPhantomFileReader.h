@@ -38,7 +38,7 @@ namespace rtk
 class RTK_EXPORT GeometricPhantomFileReader : public itk::LightProcessObject
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(GeometricPhantomFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(GeometricPhantomFileReader);
 
   /** Standard class type alias. */
   using Self = GeometricPhantomFileReader;

@@ -46,7 +46,7 @@ namespace rtk
 class RTK_EXPORT ConvexShape : public itk::DataObject
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ConvexShape);
+  ITK_DISALLOW_COPY_AND_MOVE(ConvexShape);
 
   /** Standard class type alias. */
   using Self = ConvexShape;

@@ -100,7 +100,7 @@ template <typename ProjectionStackType, typename VolumeSeriesType>
 class FourDToProjectionStackImageFilter : public itk::ImageToImageFilter<ProjectionStackType, ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FourDToProjectionStackImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FourDToProjectionStackImageFilter);
 
   /** Standard class type alias. */
   using Self = FourDToProjectionStackImageFilter;

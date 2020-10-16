@@ -164,7 +164,7 @@ template <
 class ITK_EXPORT JosephBackProjectionImageFilter : public BackProjectionImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(JosephBackProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(JosephBackProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = JosephBackProjectionImageFilter;

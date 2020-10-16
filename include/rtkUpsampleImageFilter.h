@@ -39,7 +39,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITK_EXPORT UpsampleImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(UpsampleImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(UpsampleImageFilter);
 
   /** Standard class type alias. */
   using Self = UpsampleImageFilter;

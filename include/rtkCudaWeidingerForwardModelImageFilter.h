@@ -50,7 +50,7 @@ class ITK_EXPORT CudaWeidingerForwardModelImageFilter
       WeidingerForwardModelImageFilter<TMaterialProjections, TPhotonCounts, TSpectrum, TProjections>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaWeidingerForwardModelImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaWeidingerForwardModelImageFilter);
 
   /** Standard class type alias. */
   using Self = CudaWeidingerForwardModelImageFilter;

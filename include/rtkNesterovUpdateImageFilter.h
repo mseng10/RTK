@@ -42,7 +42,7 @@ template <typename TImage>
 class NesterovUpdateImageFilter : public itk::InPlaceImageFilter<TImage, TImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(NesterovUpdateImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(NesterovUpdateImageFilter);
 
   /** Standard class type alias. */
   using Self = NesterovUpdateImageFilter;

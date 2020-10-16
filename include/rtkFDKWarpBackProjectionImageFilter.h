@@ -46,7 +46,7 @@ template <class TInputImage, class TOutputImage, class TDeformation>
 class ITK_EXPORT FDKWarpBackProjectionImageFilter : public FDKBackProjectionImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(FDKWarpBackProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(FDKWarpBackProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = FDKWarpBackProjectionImageFilter;

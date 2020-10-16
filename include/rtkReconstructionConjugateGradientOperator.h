@@ -118,7 +118,7 @@ template <typename TOutputImage, typename TSingleComponentImage = TOutputImage, 
 class ReconstructionConjugateGradientOperator : public ConjugateGradientOperator<TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ReconstructionConjugateGradientOperator);
+  ITK_DISALLOW_COPY_AND_MOVE(ReconstructionConjugateGradientOperator);
 
   /** Standard class type alias. */
   using Self = ReconstructionConjugateGradientOperator;

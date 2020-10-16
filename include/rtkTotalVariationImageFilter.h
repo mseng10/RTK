@@ -50,7 +50,7 @@ template <typename TInputImage>
 class TotalVariationImageFilter : public itk::ImageToImageFilter<TInputImage, TInputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(TotalVariationImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(TotalVariationImageFilter);
 
   /** Standard Self type alias */
   using Self = TotalVariationImageFilter;

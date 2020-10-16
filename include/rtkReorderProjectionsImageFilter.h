@@ -45,7 +45,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITK_EXPORT ReorderProjectionsImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ReorderProjectionsImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ReorderProjectionsImageFilter);
 
   /** Standard class type alias. */
   using Self = ReorderProjectionsImageFilter;

@@ -50,7 +50,7 @@ namespace rtk
 class RTK_EXPORT ThreeDCircularProjectionGeometry : public ProjectionGeometry<3>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ThreeDCircularProjectionGeometry);
+  ITK_DISALLOW_COPY_AND_MOVE(ThreeDCircularProjectionGeometry);
 
   using Self = ThreeDCircularProjectionGeometry;
   using Superclass = ProjectionGeometry<3>;

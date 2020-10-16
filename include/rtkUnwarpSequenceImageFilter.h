@@ -81,7 +81,7 @@ template <typename TImageSequence,
 class UnwarpSequenceImageFilter : public itk::ImageToImageFilter<TImageSequence, TImageSequence>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(UnwarpSequenceImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(UnwarpSequenceImageFilter);
 
   /** Standard class type alias. */
   using Self = UnwarpSequenceImageFilter;

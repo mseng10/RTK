@@ -39,7 +39,7 @@ template <typename ProjectionStackType>
 class SelectOneProjectionPerCycleImageFilter : public SubSelectImageFilter<ProjectionStackType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(SelectOneProjectionPerCycleImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(SelectOneProjectionPerCycleImageFilter);
 
   /** Standard class type alias. */
   using Self = SelectOneProjectionPerCycleImageFilter;

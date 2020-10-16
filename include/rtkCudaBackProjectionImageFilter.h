@@ -51,7 +51,7 @@ class ITK_EXPORT CudaBackProjectionImageFilter
   : public itk::CudaInPlaceImageFilter<ImageType, ImageType, BackProjectionImageFilter<ImageType, ImageType>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaBackProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaBackProjectionImageFilter);
 
   /** Standard class type alias. */
   using BackProjectionImageFilterType = BackProjectionImageFilter<ImageType, ImageType>;

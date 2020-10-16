@@ -38,7 +38,7 @@ namespace rtk
 class RTK_EXPORT XRadImageIOFactory : public itk::ObjectFactoryBase
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(XRadImageIOFactory);
+  ITK_DISALLOW_COPY_AND_MOVE(XRadImageIOFactory);
 
   /** Standard class type alias. */
   using Self = XRadImageIOFactory;

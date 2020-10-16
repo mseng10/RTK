@@ -48,7 +48,7 @@ class RTK_EXPORT CudaTotalVariationDenoisingBPDQImageFilter
                                              itk::CudaImage<itk::CovariantVector<float, 3>, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaTotalVariationDenoisingBPDQImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaTotalVariationDenoisingBPDQImageFilter);
 
   /** Standard class type alias. */
   using Self = rtk::CudaTotalVariationDenoisingBPDQImageFilter;

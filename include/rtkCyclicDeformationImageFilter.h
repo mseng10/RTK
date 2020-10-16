@@ -50,7 +50,7 @@ template <class TInputImage, class TOutputImage>
 class ITK_EXPORT CyclicDeformationImageFilter : public itk::ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CyclicDeformationImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CyclicDeformationImageFilter);
 
   /** Standard class type alias. */
   using Self = CyclicDeformationImageFilter;

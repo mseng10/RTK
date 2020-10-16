@@ -47,7 +47,7 @@ template <typename InputImageType, typename OutputImageType>
 class VectorImageToImageFilter : public itk::ImageToImageFilter<InputImageType, OutputImageType>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(VectorImageToImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(VectorImageToImageFilter);
 
   /** Standard class type alias. */
   using Self = VectorImageToImageFilter;

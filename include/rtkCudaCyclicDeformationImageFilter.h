@@ -48,7 +48,7 @@ class RTK_EXPORT CudaCyclicDeformationImageFilter
                                                                     itk::CudaImage<itk::CovariantVector<float, 3>, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaCyclicDeformationImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaCyclicDeformationImageFilter);
 
   /** Standard class type alias. */
   using Self = rtk::CudaCyclicDeformationImageFilter;

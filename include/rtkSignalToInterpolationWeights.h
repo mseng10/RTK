@@ -39,7 +39,7 @@ namespace rtk
 class ITK_EXPORT SignalToInterpolationWeights : public itk::CSVFileReaderBase
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(SignalToInterpolationWeights);
+  ITK_DISALLOW_COPY_AND_MOVE(SignalToInterpolationWeights);
 
   /** Standard class type alias */
   using Self = SignalToInterpolationWeights;

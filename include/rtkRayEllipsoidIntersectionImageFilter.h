@@ -44,7 +44,7 @@ class ITK_EXPORT RayEllipsoidIntersectionImageFilter
   : public RayConvexIntersectionImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(RayEllipsoidIntersectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(RayEllipsoidIntersectionImageFilter);
 
   /** Standard class type alias. */
   using Self = RayEllipsoidIntersectionImageFilter;

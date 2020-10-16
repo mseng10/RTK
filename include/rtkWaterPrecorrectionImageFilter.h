@@ -40,7 +40,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ITK_EXPORT WaterPrecorrectionImageFilter : public itk::InPlaceImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(WaterPrecorrectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(WaterPrecorrectionImageFilter);
 
   /** Standard class type alias. */
   using Self = WaterPrecorrectionImageFilter;

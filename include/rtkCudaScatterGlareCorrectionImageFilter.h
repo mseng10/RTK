@@ -45,7 +45,7 @@ class CudaScatterGlareCorrectionImageFilter
       ScatterGlareCorrectionImageFilter<itk::CudaImage<float, 3>, itk::CudaImage<float, 3>, float>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaScatterGlareCorrectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaScatterGlareCorrectionImageFilter);
 
   /** Standard class type alias. */
   using Self = CudaScatterGlareCorrectionImageFilter;

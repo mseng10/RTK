@@ -171,7 +171,7 @@ template <class TInputImage>
 class ITK_EXPORT AdditiveGaussianNoiseImageFilter : public itk::ImageToImageFilter<TInputImage, TInputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(AdditiveGaussianNoiseImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(AdditiveGaussianNoiseImageFilter);
 
   /** Standard class type alias. */
   using Self = AdditiveGaussianNoiseImageFilter;

@@ -42,7 +42,7 @@ namespace rtk
 class ImagXXMLFileReader : public itk::XMLReader<itk::MetaDataDictionary>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ImagXXMLFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(ImagXXMLFileReader);
 
   /** Standard type alias */
   using Self = ImagXXMLFileReader;

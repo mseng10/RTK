@@ -37,7 +37,7 @@ template <class TInputImage, class TOutputImage = TInputImage>
 class ForwardProjectionImageFilter : public itk::InPlaceImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ForwardProjectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ForwardProjectionImageFilter);
 
   /** Standard class type alias. */
   using Self = ForwardProjectionImageFilter;

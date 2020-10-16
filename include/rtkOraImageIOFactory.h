@@ -40,7 +40,7 @@ namespace rtk
 class RTK_EXPORT OraImageIOFactory : public itk::ObjectFactoryBase
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(OraImageIOFactory);
+  ITK_DISALLOW_COPY_AND_MOVE(OraImageIOFactory);
 
   /** Standard class type alias. */
   using Self = OraImageIOFactory;

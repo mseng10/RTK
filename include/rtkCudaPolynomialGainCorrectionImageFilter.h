@@ -52,7 +52,7 @@ class RTK_EXPORT CudaPolynomialGainCorrectionImageFilter
       PolynomialGainCorrectionImageFilter<itk::CudaImage<unsigned short, 3>, itk::CudaImage<float, 3>>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaPolynomialGainCorrectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaPolynomialGainCorrectionImageFilter);
 
   /** Convenience type alias **/
   using ImageType = itk::CudaImage<float, 3>;

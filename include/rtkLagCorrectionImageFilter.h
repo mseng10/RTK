@@ -55,7 +55,7 @@ template <typename TImage, unsigned ModelOrder>
 class LagCorrectionImageFilter : public itk::InPlaceImageFilter<TImage, TImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(LagCorrectionImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(LagCorrectionImageFilter);
 
   /** Standard class type alias. */
   using Self = LagCorrectionImageFilter;

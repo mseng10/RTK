@@ -44,7 +44,7 @@ namespace rtk
 class RTK_EXPORT ThreeDCircularProjectionGeometryXMLFileReader : public itk::XMLReader<ThreeDCircularProjectionGeometry>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ThreeDCircularProjectionGeometryXMLFileReader);
+  ITK_DISALLOW_COPY_AND_MOVE(ThreeDCircularProjectionGeometryXMLFileReader);
 
   /** Standard type alias */
   using Self = ThreeDCircularProjectionGeometryXMLFileReader;

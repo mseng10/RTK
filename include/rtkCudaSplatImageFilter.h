@@ -48,7 +48,7 @@ class RTK_EXPORT CudaSplatImageFilter
 
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(CudaSplatImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(CudaSplatImageFilter);
 
   /** Standard class type alias. */
   using Self = rtk::CudaSplatImageFilter;

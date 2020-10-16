@@ -47,7 +47,7 @@ template <class TImage>
 class ITK_EXPORT ExtractPhaseImageFilter : public itk::InPlaceImageFilter<TImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN(ExtractPhaseImageFilter);
+  ITK_DISALLOW_COPY_AND_MOVE(ExtractPhaseImageFilter);
 
   /** Standard class type alias. */
   using Self = ExtractPhaseImageFilter;
